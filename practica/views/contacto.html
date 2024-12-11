@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./acercade.html">Acerca de</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./galeria.html">Galería</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contáctanos</h1>
+        <a href="#contact-form" class="skip-link">Ir al formulario</a>
+    
+        <form action="#" method="post" id="contact-form">
+            <fieldset>
+                <legend>Información de contacto</legend>
+                
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input 
+                        type="text" 
+                        id="nombre" 
+                        name="nombre" 
+                        placeholder="Escribe tu nombre completo"
+                        aria-required="true" 
+                        required>
+                </div>
+                
+                <div>
+                    <label for="email">Correo Electrónico:</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        placeholder="Ejemplo: correo@dominio.com"
+                        aria-required="true" 
+                        required>
+                </div>
+                
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea 
+                        id="mensaje" 
+                        name="mensaje" 
+                        rows="5" 
+                        placeholder="Escribe tu mensaje aquí"
+                        aria-required="true" 
+                        required></textarea>
+                </div>
+            </fieldset>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    
+
+    <footer>
+        <p>&copy; 2024 Sitio Web de Práctica para Coderhouse. Todos los derechos reservados.</p>
+        
+        <nav aria-label="Enlaces útiles">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./acercade.html">Acerca de</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./galeria.html">Galería</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    
+        <address>
+            <p>Contacto:</p>
+            <ul>
+                <li>Correo: <a href="mailto:info@coderhouse.com">info@coderhouse.com</a></li>
+                <li>Teléfono: <a href="tel:+1234567890">+1 234 567 890</a></li>
+                <li>Dirección: 123 Coderhouse Ave, Ciudad Ejemplo, País</li>
+            </ul>
+        </address>
+    </footer>
+    
+</body>
+</html>

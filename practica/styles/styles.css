@@ -1,0 +1,44 @@
+/* 
+  Proyecto: Practica de Desarrollo Web Flex - Coder House
+  Autor: Luciano G. Sanchez
+  Propósito: Este archivo forma parte de una práctica académica para Coderhouse.
+  Licencia: Este proyecto es de código abierto y está disponible bajo la licencia MIT.
+  Uso: Este trabajo es exclusivamente para fines educativos y no tiene fines de lucro. Puede ser reutilizado y modificado respetando los términos de la licencia.
+  Repositorio: https://github.com/lucianokatze/web-flex-coderhouse
+  Fecha: [Fecha de creación]
+*/
+
+
+/* Primary color palette with variants for design flexibility */
+/* Includes light, dark, and transparent (alpha) versions for diverse use cases */
+colors-var {
+    --main-blue: #335C67;
+    --main-blue-light: #5C8695; /* Azul claro */
+    --main-blue-dark: #1E3942; /* Azul oscuro */
+    --main-blue-alpha-80: rgba(51, 92, 103, 0.8); /* Azul 80% opacidad */
+    --main-blue-alpha-50: rgba(51, 92, 103, 0.5); /* Azul 50% opacidad */
+
+    --main-beige: #FFF3B0;
+    --main-beige-light: #FFF8D0; /* Beige claro */
+    --main-beige-dark: #CCBE8D; /* Beige oscuro */
+    --main-beige-alpha-80: rgba(255, 243, 176, 0.8); /* Beige 80% opacidad */
+    --main-beige-alpha-50: rgba(255, 243, 176, 0.5); /* Beige 50% opacidad */
+
+    --main-yellow: #E09F3E;
+    --main-yellow-light: #F1BC73; /* Amarillo claro */
+    --main-yellow-dark: #B37930; /* Amarillo oscuro */
+    --main-yellow-alpha-80: rgba(224, 159, 62, 0.8); /* Amarillo 80% opacidad */
+    --main-yellow-alpha-50: rgba(224, 159, 62, 0.5); /* Amarillo 50% opacidad */
+
+    --main-red: #9E2A2B;
+    --main-red-light: #BA5A5B; /* Rojo claro */
+    --main-red-dark: #7A1E1F; /* Rojo oscuro */
+    --main-red-alpha-80: rgba(158, 42, 43, 0.8); /* Rojo 80% opacidad */
+    --main-red-alpha-50: rgba(158, 42, 43, 0.5); /* Rojo 50% opacidad */
+
+    --main-maroon: #540B0E;
+    --main-maroon-light: #732D30; /* Marrón claro */
+    --main-maroon-dark: #3A0709; /* Marrón oscuro */
+    --main-maroon-alpha-80: rgba(84, 11, 14, 0.8); /* Marrón 80% opacidad */
+    --main-maroon-alpha-50: rgba(84, 11, 14, 0.5); /* Marrón 50% opacidad */
+}
